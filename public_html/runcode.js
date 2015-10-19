@@ -66,7 +66,7 @@ function rundata(newdata,olddata){
               
 	}
       //   console.log(thisarray[0][0]);
-	var line= "<table style='width:30%' >";
+	var line= "<table style='width:30%' border='1'> >";
 	for(var a=0;a<3;a++){
 	
 	 // var thisarray= spinner(newarr[newarrlength]);
