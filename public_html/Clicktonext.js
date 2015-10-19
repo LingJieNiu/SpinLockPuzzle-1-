@@ -1,7 +1,8 @@
 var count=0;
+ var index=1;
 function ClickToNext(){
-    var index=1;
-	
+   
+	//getData();
         var array=new Array();
         
 	var getstring=document.getElementById("new").value;
@@ -27,7 +28,10 @@ function ClickToNext(){
          
     }else if (sum==1){
         
-         document.getElementById("showit1").innerHTML= "spinner puzzle stop in here";
+     //   var obj=getElementById("hint");
+    //    obj.setAttribute("type","text");
+      //   document.getElementById("showit1").innerHTML= "spinner puzzle stop in here";
+         alert("spinner puzzle stop in here");
          return 0;
              
     }else{
